@@ -1,0 +1,39 @@
+Если захотите использовать данных докумнет поменяйте текущий App.js на App.txt, и переменыйте текущей  App.txt на App.js
+
+import { useState } from "react";
+import "./App.css";
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  const handleIncrement = () => {
+    setCount((prevState) => prevState + 1);
+  };
+
+  const handleDecrement = () => {
+    setCount((prevState) => {
+      // если значение <= то просто возващай это значение, не изменя нечего
+      if (prevState <= 0) {
+        return prevState;
+      }
+      // если блок if не сработал то уменьш состояние на единцу
+      return prevState - 1;
+    });
+  };
+
+  return (
+    <div className="App">
+      <button onClick={handleDecrement}>-</button>
+      <p>{count}</p>
+      {/* Первая ошибка: мы внутри jsx разметки пишем логику */}
+      {/* Вторая ошибка: в время асинхронных операции setCount(count + 1) может утерятся данные */}
+      {/* <button onClick={() => setCount(count + 1)}>+</button> */}
+      <button onClick={handleIncrement}>+</button>
+    </div>
+  );
+}
+
+// 1. Все страны
+// 2. Поиск страны
+
+export default App;

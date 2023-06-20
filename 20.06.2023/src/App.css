@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.App {
+  padding: 40px;
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px 30px;
+}
+
+.App button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  background: fuchsia;
+  color: #fff;
+}

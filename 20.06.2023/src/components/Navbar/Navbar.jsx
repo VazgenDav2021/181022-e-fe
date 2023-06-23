@@ -1,7 +1,8 @@
 import React from "react";
 import "./index.css";
 import { NavLink } from "react-router-dom";
-const Navbar = () => {
+const Navbar = ({ sumofValues }) => {
+  console.log({ sumofValues });
   return (
     <div className="navbar">
       <ul>

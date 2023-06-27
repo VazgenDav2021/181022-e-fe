@@ -1,0 +1,74 @@
+[
+    {
+        "url": "./assets/product.png",
+        "discount": "30",
+        "isNew": false,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2.500.000",
+        "oldPrice": "Rp 3.500.000"
+    },
+    {
+        "url": "./assets/product.png",
+        "discount": "30",
+        "isNew": false,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2.500.000",
+        "oldPrice": "Rp 3.500.000"
+    },
+    {
+        "url": "./assets/product.png",
+        "discount": "30",
+        "isNew": false,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2.500.000",
+        "oldPrice": "Rp 3.500.000"
+    },
+    {
+        "url": "./assets/product.png",
+        "discount": "",
+        "isNew": true,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2.500.000",
+        "oldPrice": ""
+    },
+    {
+        "url": "./assets/product.png",
+        "discount": "30",
+        "isNew": false,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2.500.000",
+        "oldPrice": "Rp 3.500.000"
+    },
+    {
+        "url": "./assets/product.png",
+        "discount": "",
+        "isNew": false,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2.500.000",
+        "oldPrice": ""
+    },
+    {
+        "url": "./assets/product.png",
+        "discount": "",
+        "isNew": true,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2.500.000",
+        "oldPrice": ""
+    },
+    {
+        "url": "./assets/product.png",
+        "discount": "50",
+        "isNew": false,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2.500.000",
+        "oldPrice": "Rp 3.500.000"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "url": "./assets/dining.png",
+        "name": "Dininng"
+    },
+    {
+        "url": "./assets/living.png",
+        "name": "Living"
+    },
+    {
+        "url": "./assets/berdroom.png",
+        "name": "Bedroom"
+    }
+]

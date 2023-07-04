@@ -1,0 +1,26 @@
+[
+    {
+        "name": "О Компании",
+        "path": "/about"
+    },
+    {
+        "name": "Контакты",
+        "path": "/contacts"
+    },
+    {
+        "name": "Новинки",
+        "path": "/new"
+    },
+    {
+        "name": "Производители",
+        "path": "/manufactures"
+    },
+    {
+        "name": "Доставка",
+        "path": "/delivery"
+    },
+    {
+        "name": "Оплата",
+        "path": "/oplata"
+    }
+]
